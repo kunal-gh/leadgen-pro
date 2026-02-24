@@ -1,0 +1,77 @@
+# Python Ecosystem
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Project Data Outputs
+*.csv
+*.xlsx
+*.json
+!requirements.txt
+
+# Logs & DBs
+*.log
+*.db
+*.sqlite
+*.tmp
+*.bak
+*.cache
+
+# Testing & Artifacts
+.pytest_cache/
+.hypothesis/
+.kiro/
+
+# Hide Internal Clutter for pristine ML Portfolio
+BUGFIX_SUMMARY.md
+generate_*.py
+QUICK_*.py
+rewrite_*.ps1
+orchestrator.py
+models.py
+main.py
+tests/
+validation/
+discovery/
+qualification/
+export/
+enrichment/
+utils/
+config/
+scripts/
+claude1/
+ai_lead_qualification/
