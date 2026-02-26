@@ -1,21 +1,4 @@
-# Core Web Framework
 flask==3.0.0
-
-# Data Processing & Export
+werkzeug==3.0.1
 pandas==2.1.4
 openpyxl==3.1.2
-
-# HTTP Requests
-requests==2.31.0
-
-# AI & Machine Learning (Optional - for AI qualification)
-crewai==0.1.0
-crewai-tools==0.1.0
-
-# Web Scraping (Optional)
-beautifulsoup4==4.12.2
-
-# Lead Generation Dependencies
-google-search-results==2.4.2  # SerpAPI client
-hypothesis==6.92.1  # Property-based testing
-pytest==7.4.3  # Testing framework
