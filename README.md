@@ -1,10 +1,10 @@
-# 🧠 AI-Powered Predictive Pipeline & MLOps Showcase
+# 🧠 AI-Powered Predictive Pipeline & MLOps Architecture
 
 An advanced, automated Python-based data pipeline integrating **Predictive Machine Learning Modeling**, **Natural Language Processing (NLP)**, and **Enterprise MLOps Architectures**. 
 
-This repository serves as a comprehensive technical showcase of modern full-stack ML Engineering—demonstrating how to seamlessly bridge predictive backends with dynamic frontend Data Visualization dashboards.
+Built by Kunal, this repository serves as a comprehensive technical showcase of modern full-stack ML Engineering—demonstrating how to seamlessly bridge predictive backends with dynamic frontend Data Visualization dashboards.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkunal-gh%2Fleadgen-pro)
+🔗 **Live Production Demo:** [https://leadgen-pro-kunal.vercel.app](https://leadgen-pro-kunal.vercel.app) *(Hosted via Vercel Serverless Functions)*
 
 ![Machine Learning System](https://img.shields.io/badge/Machine_Learning-XGBoost_|_Random_Forest-purple?style=for-the-badge)
 ![MLOps](https://img.shields.io/badge/MLOps-Prometheus_|_Shadow_Deployments-orange?style=for-the-badge)
@@ -92,45 +92,6 @@ _The main dashboard featuring the live MLOps Telemetry Glass Panel and AI Matrix
 
 ![Filter Modal](docs/dashboard_modal.png)
 _Dynamic JSON POST payload injection filtering interface._
-
----
-
-## 🚀 Quick Start Guide
-
-Want to run the predictive engine yourself? 
-
-1.  **Clone the Repository (or navigate to this directory)**
-2.  **Ensure Python 3.8+ is installed.**
-3.  **Install the strictly required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  **Boot the Flask Server:**
-    ```bash
-    python app.py
-    ```
-5.  **Access the Dashboard:** Open `http://localhost:5000` in your web browser.
-6.  **Run the Engine:** Click the **Run Custom Filter** button, configure your parameters, and watch the ML engine synthesize, score, and output a fresh Excel dataset in under 500 milliseconds—while live-streaming the model latency to your UI!
-
----
-
-## ☁️ Free Live Deployment on Vercel (CI/CD)
-
-The application is engineered with a `vercel.json` configuration file, making it completely ready to deploy instantly as highly scalable, serverless Python microservices.
-
-### The Fastest Way to Deploy (1-Click)
-Simply click the button below to instantly deploy this exact ML pipeline to Vercel for free. Vercel will automatically clone the repository to your account and host it on a global serverless edge network.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkunal-gh%2Fleadgen-pro)
-
-### Manual Deployment Steps:
-1. **Create a Free Account:** Go to [Vercel.com](https://vercel.com/) and authorize your GitHub.
-2. **Push to Repository:** Ensure this codebase exists on your GitHub `main` branch.
-3. **Import & Build:** 
-   - Click **"Add New..."** -> **"Project"** in the Vercel dashboard.
-   - Select your cloned version of `leadgen-pro`.
-4. **Zero-Config Deployment:** Vercel automatically detects the `vercel.json` routing manifest. It dynamically spins up a virtual environment, installing Python 3, Flask, and the Pandas data engineering libraries mapped in `requirements.txt`.
-5. **Go Live:** Click "Deploy". In under 90 seconds, Vercel will grant you a highly available SSL-secured URL (e.g., `https://my-mlops-portfolio.vercel.app`) that you can permanently embed in your resume or LinkedIn!
 
 ---
 
